@@ -193,10 +193,12 @@
           class="lg:flex lg:items-center lg:gap-36 bg-gradient-to-r from-orange-500 to-red-500 rounded-lg lg:px-16 lg:py-20"
         >
           <!-- text section -->
-          <div class="text-white">
+          <div
+            class="text-white bg-no-repeat bg-bottom bg-cover"
+            style="background-image: url(./images/bg_cup.png)"
+          >
             <h1 class="font-extrabold text-5xl leading-normal">
-              Meet Our Super
-              Clients
+              Meet Our Super Clients
             </h1>
             <p class="font-medium leading-7 mt-5 mb-7 text-gray-50">
               There are many variations of passages of Lorem Ipsum available,
@@ -217,19 +219,25 @@
 
             <!-- front card -->
             <div class="absolute top-36 -left-36">
-              <div class="relative z-10 bg-white rounded-lg px-6 py-5 w-[400px]">
-                  <img
-                    class="absolute -top-8 -left-8 bg-white rounded-full p-1"
-                    src="images/client.png"
-                    alt=""
-                  />
+              <div
+                class="relative z-10 bg-white rounded-lg px-6 py-5 w-[400px]"
+              >
+                <img
+                  class="absolute -top-8 -left-8 bg-white rounded-full p-1"
+                  src="images/client.png"
+                  alt=""
+                />
                 <p class="text-gray-500 leading-7">
                   We are providing the best and suitable home insurance services
                   for the people who are interested to treatment
                 </p>
                 <h5 class="font-bold mt-5">Ilham Yuda</h5>
                 <p class="text-gray-600">Businessman</p>
-                <img class="absolute right-5 bottom-5" src="images/circles.png" alt="">
+                <img
+                  class="absolute right-5 bottom-5"
+                  src="images/circles.png"
+                  alt=""
+                />
               </div>
             </div>
 
@@ -268,7 +276,136 @@
           </div>
         </div>
       </section>
+
+      <!-- news & event section -->
+      <section class="mb-14">
+        <!-- title content -->
+        <div class="text-center mb-8">
+          <h1 class="text-3xl font-bold md:text-6xl mb-5">News & Events</h1>
+          <p class="text-gray-500 max-w-4xl mx-auto">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+        </div>
+
+        <!-- card section -->
+        <div class="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <!-- news-1 -->
+          <div class="border rounded-lg space-y-3 p-5">
+            <img src="images/news-1.png" alt="" />
+            <p class="text-gray-400">Feb 05, 2027</p>
+            <h4 class="font-extrabold">
+              Collecting 8 points for <br />
+              discount
+            </h4>
+            <p class="text-gray-500 pb-3">
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <a class="font-bold" href="">Learn More</a>
+          </div>
+
+          <!-- news2 -->
+          <div class="border rounded-lg space-y-3 p-5">
+            <img src="images/news-1.png" alt="" />
+            <p class="text-gray-400">Feb 05, 2027</p>
+            <h4 class="font-extrabold">
+              Collecting 8 points for <br />
+              discount
+            </h4>
+            <p class="text-gray-500 pb-3">
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <a class="font-bold" href="">Learn More</a>
+          </div>
+
+          <!-- news - 3 -->
+          <div class="border rounded-lg space-y-3 p-5">
+            <img src="images/news-1.png" alt="" />
+            <p class="text-gray-400">Feb 05, 2027</p>
+            <h4 class="font-extrabold">
+              Collecting 8 points for <br />
+              discount
+            </h4>
+            <p class="text-gray-500 pb-3">
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <a class="font-bold" href="">Learn More</a>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <!-- footer section -->
+    <footer
+      class="max-w-screen-2xl mx-auto bg-gradient-to-r from-red-50 to-red-100"
+    >
+      <!-- entire footer content section -->
+      <div class="max-w-screen-xl mx-auto px-10 lg:px-28">
+        <!-- logo section/first content -->
+        <div class="flex lg:justify-between">
+          <div>
+            <img src="images/cup.png" alt="" />
+          </div>
+          <!-- btn  -->
+          <div class="flex items-center gap-10">
+            <p class="text-xl">Ready to get started?</p>
+            <button
+              class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+
+        <!-- footer links,service,help and newsletter section -->
+        <div class="flex justify-between mt-24">
+          <!--Quick links -->
+          <div>
+            <h4 class="font-semibold text-xl mb-6">Quick Links</h4>
+            <ul class="space-y-4">
+              <li class="text-gray-500">Home</li>
+              <li class="text-gray-500">About Us</li>
+              <li class="text-gray-500">Insurance</li>
+              <li class="text-gray-500">Privacy Policy</li>
+            </ul>
+          </div>
+          <!-- service links -->
+          <div>
+            <h4 class="font-semibold text-xl mb-6">Our Service</h4>
+            <ul class="space-y-4">
+              <li class="text-gray-500">Life Insurance</li>
+              <li class="text-gray-500">Car Insurance</li>
+              <li class="text-gray-500">Health Insurance</li>
+              <li class="text-gray-500">House Insurance</li>
+            </ul>
+          </div>
+          <!-- help links -->
+          <div>
+            <h4 class="font-semibold text-xl mb-6">Help</h4>
+            <ul class="space-y-4">
+              <li class="text-gray-500">FAQs</li>
+              <li class="text-gray-500">Contact Us</li>
+            </ul>
+          </div>
+          <!-- newsletter -->
+          <div class="space-y-10">
+            <h3 class="font-semibold text-2xl">Subscribe to our newsletter</h3>
+            <!-- input email -->
+            <div
+            class="flex items-center justify-between py-5 border-b border-black"
+          >
+            <p class="text-sm text-gray-700">Email address</p>
+            <div class="flex items-center justify-center bg-gradient-to-r from-orange-500 to-red-500 h-10 w-10 rounded-full text-white">
+              <i class="fa-solid fa-angle-right "></i>
+            </div>
+          </div>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
 -
